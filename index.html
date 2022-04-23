@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EL331 practice activity</title>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>EL331 Unit3 practice activity</h1>
+      <h2>Group K</h2>
+      <form name="radioB">
+        <div>
+          <h3>Q1. When was python developed?</h3>
+          <input type="radio" name="q1" value="1975" />1975<br />
+          <input type="radio" name="q1" value="1991" />1991<br />
+          <input type="radio" name="q1" value="2003" />2003<br />
+          <input type="radio" name="q1" value="1987" />1987<br />
+        </div>
+        <div>
+          <h3>Q2. What are the features of python?</h3>
+          <input type="radio" name="q2" value="There is a wealth of specialized libraries." />There is a wealth of specialized libraries.<br />
+          <input type="radio" name="q2" value="There is a lot of code, but you can write a proper program." />There is a lot of code, but you can write a proper program.<br />
+          <input type="radio" name="q2" value="Since it is a compiler language, execution speed is fast." />Since it is a compiler language, execution speed is fast.<br />
+          <input type="radio" name="q2" value="You need to define the type." />You need to define the type.<br />
+        </div>
+        <div>
+          <h3>Q3. What is python?</h3>
+          <input type="radio" name="q3" value="Python is a video viewing site." />Python is a video viewing site.<br />
+          <input type="radio" name="q3" value="Python is an open source programming language." />Python is an open source programming language.<br />
+          <input type="radio" name="q3" value="python is an OS." />python is an OS.<br />
+          <input type="radio" name="q3" value="Python is a sweet food in South America." />Python is a sweet food in South America.<br />
+        </div>
+        <div>
+          <h3>Q4. What can you do with python?</h3>
+          <input type="radio" name="q4" value="dozens" />dozens<br />
+          <input type="radio" name="q4" value="Hundreds of millions" />Hundreds of millions<br />
+          <input type="radio" name="q4" value="Tens of thousands" />Tens of thousands<br />
+          <input type="radio" name="q4" value="hundreds" />hundreds<br />
+        </div>
+        <div>
+          <h3>Q5. What are you not good at python?</h3>
+          <input type="radio" name="q5" value="machine learning" />Machine learning<br />
+          <input type="radio" name="q5" value="web development" />Web development<br />
+          <input type="radio" name="q5" value="artificial intelligence" />Artificial intelligence<br />
+          <input type="radio" name="q5" value="Lower layer implementation" />Lower layer implementation<br />
+        </div>
+        <p><input type="submit" value="Answer" onclick="saiten()" /></p>
+      </form>
+      <p><input type="submit" value="Check Answer" onclick="check()" /></p>
+      <div id="Answer" hidden="true">
+        <p>Q1: 1991</p><br />
+        <p>Q2: There is a wealth of specialized libraries.</p><br />
+        <p>Q3: Python is an open source programming language.</p><br />
+        <p>Q4: Tens of thousands</p><br />
+        <p>Q5: Lower layer implementation</p><br />
+      </div>
+    </div>
+  </body>
+</html>
